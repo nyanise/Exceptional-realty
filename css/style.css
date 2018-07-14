@@ -17,11 +17,7 @@ figcaption{
   font:bold;
     color:white;
     text-shadow: 0 2px 3px #000;
-<<<<<<< HEAD
-=======
-    font-family: 'Bad Script', cursive;
->>>>>>> site-style
-    
+  
 }
 
 .logo h1,h2 {
@@ -54,4 +50,74 @@ a:hover {
 }
 p{
     font-family: 'Josefin Sans', sans-serif;
+}
+img, video,oudio{
+    max-width: 100%;
+}
+*{
+-webkit-box-sizing:border-dox;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+.warpper{
+    width:1000px;
+    margin: 0 auto;
+    
+}
+
+.col-1{
+float: left;
+width:32%; 
+background:#ccc;
+}
+.col-2{
+    float: left;
+    width:66%;  
+    background:#ccc;   
+}
+.col-3{
+   background:#ccc;
+}
+[class*="col-"]{
+    margin-left: 2%;
+}
+.first{
+    margin-left: 0%;
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility:hidden;
+    height:0;
+    line-height: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+}   
+
+section{
+    margin-bottom: 20px;
+    padding:20px;
+}
+footer{
+    float: right;
+}
+#social{
+    position: fixed;
+    top: 200px;
+    right: 20px;
+    width: 40px;
+    z-index: 1;
+}
+#social a{
+    display:block;
+    width: 40px;
+    height: 40px;
+    background:yellow;
 }
