@@ -8,4 +8,4 @@ Development course at the flationar school.
 
 #contact
 
-email:yannajat8@gmail.com
+email:neyannajat8@gmail.com
